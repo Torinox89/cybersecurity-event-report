@@ -7,11 +7,14 @@ Reference: https://www.techradar.com/news/clone-350-million-customer-details-lea
 
 What type of attack was this?
 Database of customer information was left open.
-Data breach at US VoiP provider Broadvoice has exposed more than 350 million customer records, including names, phone numbers and even call transcripts. 
+Data breach at US VoiP provider Broadvoice has exposed more than 350 million customer records, 
+including names, phone numbers and even call transcripts. 
 How was the vulnerability discovered?
-The discovery of the leak was made by Bob Diachenko (May of 2020), a security consultant, in collaboration with Comparitech, a technology research firm (third-party forensics firm).
+The discovery of the leak was made by Bob Diachenko (May of 2020), a security consultant, 
+in collaboration with Comparitech, a technology research firm (third-party forensics firm).
 Through a configuration error, Database of customer information was left open:
-Call transcripts include voicemails left with medical outlets and financial services firms and, personally identifiable information.
+Call transcripts include voicemails left with medical outlets and financial services firms and, 
+personally identifiable information.
 
 How were the attackers able to exploit the vulnerability?
 That information, could be put to use by cyberattackers in follow-up phishing campaigns.
@@ -25,40 +28,67 @@ required for access.
 
 CASE 2
 Tax software blamed for cyber-attack spread
-MEDoc as the source and… Paradoxically, the least expected, the software up to date -end up being an attack vector-.
+MEDoc as the source and… Paradoxically, the least expected, the software up to date 
+-end up being an attack vector-.
 Reference: 
 https://www.bbc.com/news/technology-40428967
 https://en.wikipedia.org/wiki/WannaCry_ransomware_attack **
 
 Microsoft described the method as "a recent dangerous trend".
 
-The cyber-attack has caused disruption around the world and infected companies in 64 countries, including banks in Ukraine, Russian oil giant Rosneft, British advertising company WPP and US law firm DLA Pipe.
+The cyber-attack has caused disruption around the world and infected companies in 64 countries, 
+including banks in Ukraine, Russian oil giant Rosneft, 
+British advertising company WPP and US law firm DLA Pipe.
 What type of attack was this?  Malware type.
-"It looks like the software's automatic update system was compromised and used to download and run malware rather than updates for the software." - email correspondence with the BBC, Mr Hutchins-
+"It looks like the software's automatic update system was compromised and used to 
+download and run malware rather than updates for the software." 
+- email correspondence with the BBC, Mr Hutchins-
 
 How was the vulnerability discovered?
-Active infections of the ransomware initially started from the legitimate MEDoc update process,
-The update process is normally a very tightly controlled; It was not yet clear how it had been compromised.
+Active infections of the ransomware initially started from the legitimate 
+MEDoc update process.The update process is normally a very tightly controlled; 
+It was not yet clear how it had been compromised.
 
 How were the attackers able to exploit the vulnerability?
-Alan Woodward, a computer scientist from the University of Surrey: it showed "hackers will probe every possible channel" to find a route into systems.
+Alan Woodward, a computer scientist from the University of Surrey: 
+it showed "hackers will probe every possible channel" to find a route into systems.
 The attackers only provided one single email address and that was closed down very quickly.
 The current attack is thought to have worm-like properties
-That the virus, thought to be a new variant of the Petya ransomware, was spread using a Windows vulnerability known as “Eternal Blue”, discovered by the National Security Agency and leaked online.
+That the virus, thought to be a new variant of the Petya ransomware, 
+was spread using a Windows vulnerability known as “Eternal Blue”, discovered by the 
+National Security Agency and leaked online.
 Paths:
-1.	EternalBlue is an exploit of Microsoft's implementation of their Server Message Block (SMB) protocol (released by The Shadow Brokers).
+1.	EternalBlue is an exploit of Microsoft's implementation of their 
+    Server Message Block (SMB) protocol (released by The Shadow Brokers).
 2.	IT staffs' credentials:  make use of two administrative tools…
 a.	PsExec, a program that allows software installations and other tasks to be carried out remotely
-b.	WMIC (Windows Management Instrumentation Command-line) a program that allows PCs to be controlled by typing in commands rather than via a graphical-interface.
-Once a PC is infected, the malware targets a part of its operating system called the Master File Table (MFT).
+b.	WMIC (Windows Management Instrumentation Command-line) a program that allows PCs to be  
+    controlled by typing in commands rather than via a graphical-interface.
+Once a PC is infected, the malware targets a part of its operating system
+ called the Master File Table (MFT).
 
 Were there security measures that could have been taken in order to prevent this attack?
-The least expected entry route dependent on automatic updating was intentionally sought after for the attack. Knowing that said system is apparently sufficiently reinforced and that it is the entrance for the new security processes, authentication and protocols and other properties of different programs. Therefore there was confidence that no one would dare to enter through "the main door", in full view of everyone.
+The least expected entry route dependent on automatic updating was intentionally 
+sought after for the attack. 
+Knowing that said system is apparently sufficiently reinforced and that it is 
+the entrance for the new security processes, 
+authentication and protocols and other properties of different programs. 
+Therefore there was confidence that no one would dare to enter through "the main door", 
+in full view of everyone.
 Ways to control:
-1. Server Message Block (SMB); security patches and implement mechanisms to ensure that PCs when communicating comply with certain authentication systems.
+1. Server Message Block (SMB); security patches and implement 
+mechanisms to ensure that PCs when communicating comply with certain authentication systems.
 2. IT staffs' credentials: protection protocols for them.
-a. PsExec: remote accesses must have specific authentication mechanisms for those communicating computers.
+a. PsExec: remote accesses must have specific authentication mechanisms for those
+   communicating computers.
 b. VMIC command writing requires new authentications.
-c. MFT: finding the target files must be controlled or supervised with the previous authentications, so that points 1 and 2 are interconnected with a decision algorithm that identifies intrusion patterns associated with the antivirus protection system and potentially with the VPN to be involved (WIFI, network, etc)
-The system must be regulated in such a way that it must allow rapid decisions to be made in the event that some of these components are compromised.
-In case the system is compromised; carry out prophylactic (preventive) quarantine and develop a parallel damage control system related to the antivirus system. Possibly with immediate notification to the government systems involved with said security, when the viral agent causing the attack is identified, or highly suspected.
+c. MFT: finding the target files must be controlled or supervised with the 
+   previous authentications, so that points 1 and 2 are interconnected 
+   with a decision algorithm that identifies intrusion patterns associated with 
+   the antivirus protection system and potentially with the VPN to be involved (WIFI, network, etc).
+The system must be regulated in such a way that it must allow rapid decisions to be 
+made in the event that some of these components are compromised.
+In case the system is compromised; carry out prophylactic (preventive)
+ quarantine and develop a parallel damage control system related to the antivirus system. 
+Possibly with immediate notification to the government systems involved with said security, 
+when the viral agent causing the attack is identified, or highly suspected.
